@@ -36,7 +36,7 @@ Follow the steps below to run the project locally.
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/library-api.git
+git clone GIT_URL
 cd library-api
 ```
 
