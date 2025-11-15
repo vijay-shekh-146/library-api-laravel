@@ -156,7 +156,7 @@ http://localhost:8000/api/documentation
 |--------|------------------------------|------------------------|
 | POST   | /api/{book_id}/borrow        | Borrow a book          |
 | POST   | /api/{book_id}/return        | Return borrowed book   |
-| GET    | /borrowings                  | List all borrowings    |
+| GET    | /my-borrowings                  | List all borrowings    |
 
 ---
 
