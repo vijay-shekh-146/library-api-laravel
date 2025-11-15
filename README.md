@@ -29,7 +29,40 @@ This project provides user authentication, role management, book management, and
 
 ## 📦 Installation Guide
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/your-repo/library-api.git
-cd library-api
+cd library-api ```
+
+### 2 Install Dependencies
+```composer install```
+
+### 3 Install Dependencies
+
+
+```DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=library
+DB_USERNAME=postgres
+DB_PASSWORD=your_password
+```
+
+### 4 Generate App Key
+```php artisan key:generate```
+
+
+### 5 Configure JWT Secret
+```php artisan jwt:secret```
+
+
+### 6 Run Migrations + Seeders
+```php artisan migrate --seed```
+
+### 7 Start the Server
+```php artisan serve```
+
+
+## View Swagger UI
+
+```/api/documentation```
